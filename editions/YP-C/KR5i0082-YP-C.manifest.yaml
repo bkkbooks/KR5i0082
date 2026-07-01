@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0082/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5i0082/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 擊壤集
+  date: '2015-08-29 17:58:47.614784'
+  source:
+    repository: kanripo
+    path: KR5i0082
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0082_001-YP-C.yaml, hash: 'sha256:5aa64f1d1cd50708a94db2beeac26b0c84a960eca4087ffececf3bd145e31aa5'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0082_001-YP-C.markers.yaml, hash: 'sha256:7fc48f6836c678344da8a0d0963a0730125fc014e5dbc5a15f10c3cf4bf7e8c2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: YP-C_KR5i0082_25xingji-07-0061a
+    span:
+    - body
+    - 0
+    - 16118
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:d9dbc26e29026e0455181b60de78a71d7ae4860100da42b2805e9d29371bd7e8

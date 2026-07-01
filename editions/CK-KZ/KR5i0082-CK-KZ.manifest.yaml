@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0082/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0082/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 擊壤集
+  date: '2015-08-29 17:58:47.614784'
+  source:
+    repository: kanripo
+    path: KR5i0082
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0082_001-CK-KZ.yaml, hash: 'sha256:efc81b1c4a7e5d3a9be8ad9db8a200f81c6a7dc6d1a877dbdc566244fa6ded66'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0082_001-CK-KZ.markers.yaml, hash: 'sha256:15f0007fc6f40313b8c6a2d9e5852ebe4b9a2cfc32d7f73b61044580f6c22bea'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-BS_KR5i0082_01p001a
+    span:
+    - body
+    - 0
+    - 16119
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:964268814fe18251b7a45d11d0423dee45bf74fe2b45c49e14e4693f97dff0a9
